@@ -28,23 +28,38 @@ My design of an RF generator based on the ADF4350, used as a heterodyne signal i
 
 The assumption of the project was to create a small and simple RF generator, with good parameters and high stability. At the very beginning, the generator design based on separate components was eliminated, i.e. separate VCO, PLL, dividers, multiplexers and final stages. Such a design can provide the best stability and noise parameters and be freely and easily modified, but it requires complex design and time-consuming tests. In this straightforward project, reliance is placed on the use of a Wideband Synthesizer with Integrated VCO, which will provide good parameters and in one "silicon" unit will have integrated basic components of the RF generator and the ability to program the output frequencies. I decided on the ADF4350 because of the parameters that were in line with the assumptions. What's more, the free samples I received from the manufacturer were an additional advantage.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Final parameters
 
 Dimensions: 
-<a>PCB: 51mm x 46mm,</a> 
+
+PCB: 51mm x 46mm,
+
 Cover:  58mm x 53mm x 27mm
+
 •	Power supply: +5V, >200mA
+
 •	Output power: 9-15dBm
+
 •	Frequency range: 550-4400MHz
+
 •	4 programmable frequency values
+
 •	SMA connectors
+
 •	Frequency stability: +/- 350 Hz (depends on the frequency)
+
 •	Phase noice: (-85) – (-105) dBc/Hz
+
 •	Harmonics: -4dB (worst case)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Block diagram
 
 ![Adf4350_RF_gen drawio](https://github.com/user-attachments/assets/f219a649-256a-4758-9969-46e661803fcd)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## PCB design
 
@@ -53,11 +68,15 @@ Cover:  58mm x 53mm x 27mm
 To maintain the intended dimensions and improve RF properties (thinner 50 Ohm paths), the PCB is 4-layer.
 The design was based on a schematic diagram provided by the manufacturer in the catalog note. To ensure high stability, each voltage pin has its own stabilizer and copper plates. The mass is common, only under the quartz it is cut off. For easier assembly (soldering the ground pad), there is an enlarged hole in the PCB. The mounting holes were placed in convenient places due to the planned use of a 3D printed casing, designed for PCB. An exposed copper ring is used to mount the RF shielding.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Cover design
 
 ![rend](https://github.com/user-attachments/assets/368149ce-528a-4097-9044-21cd6d2c8bd4)
 
 The case was designed in Fusion360 using a PCB model generated in KiCad. 2 screws were used to screw the PCB to the lower part of the cover, another two were used to connect both parts of the case. There are also holes for 2 LEDs, a DC power and SMA connectors. To improve the appearance, the outer layers of the housing were printed using the Hilbert curve on an Ender 3 printer.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Measurements
 
@@ -93,4 +112,5 @@ Measurement results for the 2400MHz frequency:
 •	Phase noice (10kHz): -87,57 dBc/Hz
 •	Harmonics: 2nd: -15dB, 3rd: out of range FSV
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ![2400MHz](https://github.com/user-attachments/assets/e77ad9fe-5c1d-4430-828d-54eb03122ea4)
