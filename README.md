@@ -1,4 +1,5 @@
 <!-- TABLE OF CONTENTS -->
+<a id="readme-top"></a>
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -85,31 +86,49 @@ Measurements were made according to the connections shown in the diagram below. 
 ![uklad_pomiarowy drawio](https://github.com/user-attachments/assets/cabe9ea6-f346-4bdc-83a6-e435a6b4c6d0)
 
 Measurement results for the 600MHz frequency:
+
 •	Output frequency (exact): 600001200 Hz
+
 •	Frequency stability: +/-150Hz
+
 •	Power consumption: 0,79mW
+
 •	Output power: 14,34 dBm
+
 •	Phase noice (10kHz): -103,1dBc/Hz
+
 •	Harmonics: 2nd: -9dB, 3rd: -20dB, 4th: -25dB
 
 ![600MHz](https://github.com/user-attachments/assets/d889a8a8-285c-4e35-8fce-2a8144298d5f)
 
 Measurement results for the 1380MHz frequency:
+
 •	Output frequency (exact): 1380002470 Hz
+
 •	Frequency stability: +/-300 Hz
+
 •	Power consumption: 0,73 mW
+
 •	Output power: 9,1 dBm
+
 •	Phase noice (10 kHz): -90,25 dBc/Hz
+
 •	Harmonics: 2nd: -16dB, 3rd: -4dB, 4th: -25dB
 
 ![1380MHz](https://github.com/user-attachments/assets/35dca320-ed16-426d-aaf7-635185f00db0)
 
 Measurement results for the 2400MHz frequency:
+
 •	Output frequency (exact): 2400004910 Hz
+
 •	Frequency stability: +/-350Hz
+
 •	Power consumption: 0,72 mW 
+
 •	Output power: 11,45 dBm
+
 •	Phase noice (10kHz): -87,57 dBc/Hz
+
 •	Harmonics: 2nd: -15dB, 3rd: out of range FSV
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
