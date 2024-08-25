@@ -30,8 +30,8 @@ The assumption of the project was to create a small and simple RF generator, wit
 
 ## Final parameters
 
-•	Dimensions: 
-PCB: 51mm x 46mm, 
+Dimensions: 
+<a>PCB: 51mm x 46mm,</a> 
 Cover:  58mm x 53mm x 27mm
 •	Power supply: +5V, >200mA
 •	Output power: 9-15dBm
