@@ -1,3 +1,3 @@
 # ADF4350-generator
-My PCB design of small RF generator based on the ADF4350 and attiny uC.
-The design comes from vhldesign, but I didn't like their PCB. Additionally, I made some interesting measurements. Enjoy
+
+![Adf4350_RF_gen drawio](https://github.com/user-attachments/assets/fe806a60-8728-49f1-b36c-a7248ec56786)
