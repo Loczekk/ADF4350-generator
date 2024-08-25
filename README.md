@@ -4,12 +4,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#Intruduction">Introduction</a></li>
-    <li><a href="#final parameters">Final parameters</a></li>
-    <li><a href="#block diagram">Blocj diagram</a></li>
-    <li><a href="#PCB design">PCB design</a></li>
-    <li><a href="#Cover design">Cover design</a></li>
-    <li><a href="#Measurements">Measurements</a></li>
+    <li><a href="#intruduction">Introduction</a></li>
+    <li><a href="#final-parameters">Final parameters</a></li>
+    <li><a href="#block-diagram">Block diagram</a></li>
+    <li><a href="#pcb-design">PCB design</a></li>
+    <li><a href="#cover-design">Cover design</a></li>
+    <li><a href="#measurements">Measurements</a></li>
   </ol>
 </details>
 
