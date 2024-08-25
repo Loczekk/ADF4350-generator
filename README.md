@@ -4,7 +4,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#intruduction">Introduction</a></li>
+    <li><a href="#introduction">Introduction</a></li>
     <li><a href="#final-parameters">Final parameters</a></li>
     <li><a href="#block-diagram">Block diagram</a></li>
     <li><a href="#pcb-design">PCB design</a></li>
@@ -56,6 +56,7 @@ Cover:  58mm x 53mm x 27mm
 •	Harmonics: -4dB (worst case)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Block diagram
 
 ![Adf4350_RF_gen drawio](https://github.com/user-attachments/assets/f219a649-256a-4758-9969-46e661803fcd)
